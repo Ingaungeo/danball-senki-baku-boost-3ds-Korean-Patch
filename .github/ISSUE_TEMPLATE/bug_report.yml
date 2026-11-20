@@ -1,0 +1,51 @@
+name: 오류 / 오역 제보
+description: 멈춤, 진행 불가, 글자 깨짐, 창 밖으로 넘치는 글자, 오역 등을 알려 주세요.
+title: "[v1.44] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 종류
+      options:
+        - 멈춤 / 진행 불가
+        - 글자 깨짐 / 이상한 글자
+        - 글자가 창 밖으로 넘침
+        - 오역 / 어색한 번역
+        - 번역 안 된 곳
+        - 기타
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 패치 버전
+      placeholder: 예) v1.44
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 실행 환경
+      placeholder: 예) Azahar 2125 (Windows), 실기 3DS 등
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: 발생한 장면
+      description: 챕터, 장소, 대화 상대, 메뉴 이름 등을 최대한 자세히 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 내용
+      description: 무엇이 문제인지, 오역이라면 어떻게 고치면 좋을지 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 스크린샷
+      description: 이미지를 이 칸에 끌어다 놓으면 첨부됩니다.
