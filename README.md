@@ -1,4 +1,4 @@
-# 골판지 전기 폭 부스트 한글 패치
+# 골판지 전기 바쿠 부스트 한글 패치
 
 **Danball Senki Baku Boost (ダンボール戦機 爆ブースト)** 3DS 비공식 한글 패치입니다.
 
@@ -6,7 +6,7 @@
 
 ## 현재 버전
 
-**v1.44** — [Releases](../../releases)에서 받을 수 있습니다.
+**v1.46** — [Releases](../../releases)에서 받을 수 있습니다.
 
 ## 한글화 범위
 
@@ -35,19 +35,19 @@
 ### 1. 원클릭 (Windows)
 1. 릴리스 압축 파일을 원본 롬이 있는 폴더에 풉니다.
 2. `apply-patch.bat`을 실행합니다.
-3. 같은 폴더에 `Danball-KO-v1.44.3ds`가 만들어집니다.
+3. 같은 폴더에 `Danball-KO-v1.46.3ds`가 만들어집니다.
 
 ### 2. xdelta UI / Delta Patcher
-- 패치 파일: `Danball-Senki-Baku-Boost-KO-v1.44.xdelta`
+- 패치 파일: `Danball-Senki-Baku-Boost-KO-v1.46.xdelta`
 - 원본 파일: 위의 원본 `.3ds`
 - 출력 파일 이름을 정하고 적용합니다.
 
 ### 3. 명령줄
 ```
-xdelta3.exe -d -s "원본.3ds" Danball-Senki-Baku-Boost-KO-v1.44.xdelta "Danball-KO.3ds"
+xdelta3.exe -d -s "원본.3ds" Danball-Senki-Baku-Boost-KO-v1.46.xdelta "Danball-KO.3ds"
 ```
 
-결과 롬 SHA-256: `7BAACFD978A726AAD8AB98F0CBEF20E95E7484929F324652202FA2D7DAFBCA86`
+결과 롬 SHA-256: `6DD547A38CDF1A814946DCD9DAC1D2A17386AD6543B715350625EC81D8D511EA`
 
 ## 에뮬레이터 설정 (Azahar / Citra)
 
@@ -75,6 +75,8 @@ xdelta3.exe -d -s "원본.3ds" Danball-Senki-Baku-Boost-KO-v1.44.xdelta "Danball
 
 | 버전 | 내용 |
 |---|---|
+| v1.46 | 대사를 대화창 폭(22칸)에 맞춤, 물결표(~)가 위로 뜨던 문제 수정, 필살 펑션 사거리·속성 표시와 커스터마이즈 화면 수치 겹침 수정 |
+| v1.45 | 대화 글자 밑 희미한 줄 제거, 메타모 메뉴 버튼과 저장 화면 "리더" 표시를 일본판 스타일로 다시 그림 |
 | v1.44 | 2차 오역 검수 약 270건 수정, 방 번호·우승 횟수 숫자 표시 복구 |
 | v1.43 | 창 밖으로 넘치던 문구 188곳 수정 (지명, 퀘스트 기록, 영상 자막 등) |
 | v1.42 | 전체 오역 검수 반영, 고유명사를 애니메이션 표기로 통일, 한글 글자 9자 추가 |
