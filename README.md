@@ -6,7 +6,7 @@
 
 ## 현재 버전
 
-**v1.46** — [Releases](../../releases)에서 받을 수 있습니다.
+**v1.63** — [Releases](../../releases)에서 받을 수 있습니다.
 
 ## 한글화 범위
 
@@ -35,19 +35,19 @@
 ### 1. 원클릭 (Windows)
 1. 릴리스 압축 파일을 원본 롬이 있는 폴더에 풉니다.
 2. `apply-patch.bat`을 실행합니다.
-3. 같은 폴더에 `Danball-KO-v1.46.3ds`가 만들어집니다.
+3. 같은 폴더에 `Danball-KO-v1.63.3ds`가 만들어집니다.
 
 ### 2. xdelta UI / Delta Patcher
-- 패치 파일: `Danball-Senki-Baku-Boost-KO-v1.46.xdelta`
+- 패치 파일: `Danball-Senki-Baku-Boost-KO-v1.63.xdelta`
 - 원본 파일: 위의 원본 `.3ds`
 - 출력 파일 이름을 정하고 적용합니다.
 
 ### 3. 명령줄
 ```
-xdelta3.exe -d -s "원본.3ds" Danball-Senki-Baku-Boost-KO-v1.46.xdelta "Danball-KO.3ds"
+xdelta3.exe -d -s "원본.3ds" Danball-Senki-Baku-Boost-KO-v1.63.xdelta "Danball-KO.3ds"
 ```
 
-결과 롬 SHA-256: `6DD547A38CDF1A814946DCD9DAC1D2A17386AD6543B715350625EC81D8D511EA`
+결과 롬 SHA-256: `B2C2BCE1920B096B3CDF27A80194B8E1B7D017F7B9F48ECF7EA00F7CB3CD7A73`
 
 ## 에뮬레이터 설정 (Azahar / Citra)
 
@@ -75,6 +75,8 @@ xdelta3.exe -d -s "원본.3ds" Danball-Senki-Baku-Boost-KO-v1.46.xdelta "Danball
 
 | 버전 | 내용 |
 |---|---|
+| v1.63 | 대사 말투 검수(캐릭터 관계에 맞지 않던 존댓말·반말·어른 말투 61종 수정), 설명바 오른쪽 끝 잘림 323곳 수정, 뭉개지던 작은 글씨(합계·LBX 타입·그리스 부족 등)와 "를" 등 획 많은 글자 선명하게, YOU WIN의 "파이널 브레이크" 로고·커스터마이즈 화면 제목(코어 파츠·마이 세트·방패 A/B)·미션 로고·일시정지 화면 잔기 표시 한글화, 코어 파츠 패널 글자 크기 통일 |
+| v1.52 | 상점·교환소 버튼과 보유 수 표시, 조작 가이드, 파티 멤버·저장 화면 "리더"/잠금/게스트 표시, LBX 도감 메뉴 글자를 일본판 스타일로 다시 그림, 대화창 폭을 21칸으로 다시 맞춤, 대전 신청 문구·아이템 획득 문구 조사 수정, 작은 글씨가 위로 붙던 문제 수정 |
 | v1.46 | 대사를 대화창 폭(22칸)에 맞춤, 물결표(~)가 위로 뜨던 문제 수정, 필살 펑션 사거리·속성 표시와 커스터마이즈 화면 수치 겹침 수정 |
 | v1.45 | 대화 글자 밑 희미한 줄 제거, 메타모 메뉴 버튼과 저장 화면 "리더" 표시를 일본판 스타일로 다시 그림 |
 | v1.44 | 2차 오역 검수 약 270건 수정, 방 번호·우승 횟수 숫자 표시 복구 |
